@@ -1,6 +1,6 @@
 ## Load the Extension:
 
-- Clone the project.
+- Download the project.
 - Go to chrome://extensions/.
 - Enable "Developer mode".
 - Click "Load unpacked" and select the directory containing your manifest.json, background.js, and icons.
