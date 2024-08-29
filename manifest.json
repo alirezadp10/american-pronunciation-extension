@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Pronounce Word",
+  "version": "1.0",
+  "description": "Pronounce a highlighted word by pressing Alt+P",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "commands": {
+    "pronounce-word": {
+      "suggested_key": {
+        "default": "Alt+P",
+        "mac": "Command+P"
+      },
+      "description": "Pronounce the highlighted word"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
