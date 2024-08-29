@@ -8,4 +8,4 @@
 ## Test the Extension:
 
 Highlight a word on any webpage.
-Press Alt+L (or Command+L on Mac).
+Press Alt+P (or Command+P on Mac).
