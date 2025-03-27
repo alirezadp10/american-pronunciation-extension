@@ -9,7 +9,7 @@
 
 - Go to `chrome://extensions/shortcuts` in your browser.
 - Find your extension in the list.
-- Click the pencil icon next to the command you want to set (e.g., "Activate the extension"), then press your desired key combination (e.g., `Alt+P`  or `Command+P` on Mac) to assign it.
+- Click the pencil icon next to the command you want to set (e.g., "Activate the extension"), then press your desired key combination (e.g., `Alt+P` in Windows  or `Command+P` on Mac) to assign it.
 
 ## Test the Extension:
 
